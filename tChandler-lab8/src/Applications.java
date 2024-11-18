@@ -1,8 +1,16 @@
-/* Treasure Chandler
+/* 
+ * Treasure Chandler
  * CS 16000-01 02/03, Fall Semester 2024
  * Lab 8
  * 
- * 
+ * This class provides some Scanner functionality in order
+ * for the user to input their own values of the length
+ * and width of a rectangle. It also prints the rectangle's
+ * calculated area and perimeter in the console (the 
+ * "boxes" having hardcoded values are also calculated).
+ * Finally, the class also utilizes the equals() method from
+ * the Rectangle class to return some logic of comparing two
+ * "boxes" with each other.
  */
 
 import java.util.*;     // Needed for the Scanner class
@@ -127,7 +135,7 @@ public class Applications {
  * Problem 2(f) comment:
  * 
  * My inputs were 60 and 30, respectively. The parameters for
- * box2.setLength() and box2.setWidth() were 90 and 20, respectively
+ * box2.setLength() and box2.setWidth() were 90 and 20, respectively.
  * 
  * The console output shows:
  * The length is: 60.00
@@ -135,38 +143,38 @@ public class Applications {
  * The length is: 90.00
  * The width is: 20.00
  * 
- * So, this means that the field values do correspond to my input
+ * So, this means that the field values do correspond to my input.
  */
 
 /*
  * Problem 2(g) comment:
  * 
- * My inputs were 60 and 30, respectively
+ * My inputs were 60 and 30, respectively.
  * 
  * The console output shows:
  * false
  * 
  * So, this means both the length and width of "box" is not equal
- * to "box2"'s length and width
+ * to "box2"'s length and width.
  */
 
 /*
  * Problem 2(k) comment:
  * 
- * My inputs were 60 and 30, respectively
+ * My inputs were 60 and 30, respectively.
  * 
  * The console output shows:
  * true
  * 
  * So, this means both the length and width of "box" is equal to
- * "box3"'s length and width
+ * "box3"'s length and width.
  */
 
 /*
  * Problem 2(l) comment:
  * 
  * My inputs were 60 and 30, respectively. The parameters for
- * box2.setLength() and box2.setWidth() were 90 and 20, respectively
+ * box2.setLength() and box2.setWidth() were 90 and 20, respectively.
  * 
  * The console output shows:
  * Area of box: 1800.0
