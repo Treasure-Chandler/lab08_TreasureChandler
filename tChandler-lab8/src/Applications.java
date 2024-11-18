@@ -111,7 +111,15 @@ public class Applications {
 
         // Problem 2(m):
         // Declares and instantiates another rectangle object, "box4"
-        
+        Rectangle box4 = new Rectangle();
+        /*
+         * Call setLength() and setWidth() for later printing "box4"'s
+         * length and width
+         */
+        box4.setLength(50);
+        box4.setWidth(20);
+        // Call displayRectangle() for box4
+        box4.displayRectangle();
     } // End of main()
 } // End of Applications
 
