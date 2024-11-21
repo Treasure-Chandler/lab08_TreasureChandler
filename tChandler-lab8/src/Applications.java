@@ -59,7 +59,12 @@ public class Applications {
 
         // Problem 2(f):
         // Call displayRectangle() for "box" and "box2"
+        str1 = "\"Box's\" dimensions:";
+        System.out.println(str1);
         box.displayRectangle();
+
+        str2 = "\"Box2's\" dimensions:";
+        System.out.println(str2);
         box2.displayRectangle();
 
         // Problem 2(g):
@@ -68,7 +73,8 @@ public class Applications {
          * This compares the values between "box" and "box2".
          * The returned boolean will be printed to the console
          */
-        System.out.println(box.equals(box2));
+        str1 = "It is " + box.equals(box2) + " that \"Box\" and \"Box2\" are the same";
+        System.out.println(str1);
 
         // Problem 2(h):
         // Declares and instantiates another rectangle object, "box3"
@@ -98,23 +104,24 @@ public class Applications {
          * This compares the values between "box" and "box3". The
          * returned boolean will be printed to the console
          */
-        System.out.println(box.equals(box3));
+        str1 = "It is " + box.equals(box3) + " that \"Box\" and \"Box3\" are the same";
+        System.out.println(str1);
 
         // Problem 2(l):
         /*
          * Computes the area and perimeter of all of the boxes, along
          * with printing them to the console
          */
-        System.out.println("\nArea of box: " + box.computeArea() + "\n" +
-                            "Perimeter of box: " + box.computePerimeter() +
+        System.out.println("\nArea of \"Box\": " + box.computeArea() + "\n" +
+                            "Perimeter of \"Box\": " + box.computePerimeter() +
                             "\n");
 
-        System.out.println("Area of box2: " + box2.computeArea() + "\n" +
-                            "Perimeter of box2: " + box2.computePerimeter() +
+        System.out.println("Area of \"Box2\": " + box2.computeArea() + "\n" +
+                            "Perimeter of \"Box2\": " + box2.computePerimeter() +
                             "\n");
 
-        System.out.println("Area of box3: " + box3.computeArea() + "\n" +
-                            "Perimeter of box3: " + box3.computePerimeter() +
+        System.out.println("Area of \"Box3\": " + box3.computeArea() + "\n" +
+                            "Perimeter of \"Box3\": " + box3.computePerimeter() +
                             "\n");
 
         // Problem 2(m):
@@ -127,6 +134,8 @@ public class Applications {
         box4.setLength(50);
         box4.setWidth(20);
         // Call displayRectangle() for box4
+        str1 = "\"Box4's\" dimensions:";
+        System.out.println(str1);
         box4.displayRectangle();
     } // End of main()
 } // End of Applications
